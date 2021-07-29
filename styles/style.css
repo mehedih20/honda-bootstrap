@@ -3,3 +3,30 @@
 body {
   font-family: "Poppins", sans-serif;
 }
+
+.bg-banner {
+  background-color: #264653;
+}
+
+.bg-btn {
+  background-color: #e76f51;
+}
+
+.text-grey {
+  color: #e0e0e0;
+}
+.text-grey-dark {
+  color: #6c6c6c;
+}
+
+.text-orange {
+  color: #e76f51;
+}
+
+.text-blue {
+  color: #23a6f0;
+}
+
+.img-gray {
+  filter: grayscale(100%);
+}
