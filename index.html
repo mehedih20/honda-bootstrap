@@ -146,29 +146,35 @@
       <section class="container-lg py-5 px-3">
         <h2 class="text-center display-6 fw-bold">Featured Bikes 2021</h2>
         <p class="text-center text-orange mb-5">Best bikes 2021</p>
-        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-5">
-          <div class="col d-flex justify-content-center align-items-center">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3">
+          <div
+            class="col d-flex justify-content-center align-items-center mb-3"
+          >
             <img
-              height="243"
-              width="288"
+              height="223"
+              width="268"
               class="img-fluid img-gray"
               src="img/feature-bike.jpg"
               alt="featured-bike"
             />
           </div>
-          <div class="col d-flex justify-content-center align-items-center">
+          <div
+            class="col d-flex justify-content-center align-items-center mb-3"
+          >
             <img
-              height="243"
-              width="288"
+              height="223"
+              width="268"
               class="img-fluid"
               src="img/feature-bike.jpg"
               alt="featured-bike"
             />
           </div>
-          <div class="col d-flex justify-content-center align-items-center">
+          <div
+            class="col d-flex justify-content-center align-items-center mb-3"
+          >
             <img
-              height="243"
-              width="288"
+              height="223"
+              width="268"
               class="img-fluid img-gray"
               src="img/feature-bike.jpg"
               alt="featured-bike"
@@ -178,9 +184,11 @@
       </section>
       <!-- Latest News -->
       <section class="container-lg py-5 px-3">
-        <h2 class="text-center display-6 fw-bold mb-5">Latest News</h2>
-        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-5">
-          <div class="col">
+        <h2 class="text-center display-6 fw-bold mb-5">
+          Latest <span class="text-orange"> News </span>
+        </h2>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3">
+          <article class="col">
             <div class="card p-3 rounded-3">
               <img src="img/bike-1.png" class="card-img-top" alt="bike" />
               <div class="card-body">
@@ -192,8 +200,8 @@
                 <a href="#" class="btn bg-btn text-white mt-3"> Read More </a>
               </div>
             </div>
-          </div>
-          <div class="col">
+          </article>
+          <article class="col">
             <div class="card p-3 rounded-3">
               <img src="img/bike-2.png" class="card-img-top" alt="bike" />
               <div class="card-body">
@@ -205,8 +213,8 @@
                 <a href="#" class="btn bg-btn text-white mt-3"> Read More </a>
               </div>
             </div>
-          </div>
-          <div class="col">
+          </article>
+          <article class="col">
             <div class="card p-3 rounded-3">
               <img src="img/bike-3.png" class="card-img-top" alt="bike" />
               <div class="card-body">
@@ -218,7 +226,7 @@
                 <a href="#" class="btn bg-btn text-white mt-3"> Read More </a>
               </div>
             </div>
-          </div>
+          </article>
         </div>
       </section>
       <!-- Customers -->
@@ -226,7 +234,7 @@
         <h2 class="text-center display-6 fw-bold mb-5">
           Happy <span class="text-orange">Client Says</span>
         </h2>
-        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-5">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3">
           <div class="col">
             <div class="card p-3 rounded-3">
               <div class="card-img-top d-flex justify-content-center">
@@ -313,7 +321,7 @@
         <h2 class="text-center display-6 fw-bold mb-5">
           Frequently Asked <span class="text-orange">Questions</span>
         </h2>
-        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-2 g-5">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-2 g-3">
           <div class="col d-flex align-items-end">
             <img src="img/faq.png" alt="faq-img" class="img-fluid" />
           </div>
@@ -463,10 +471,130 @@
           </div>
         </div>
       </section>
+      <!-- Gallery -->
+      <section class="container-lg py-5 px-3">
+        <h2 class="text-center display-6 fw-bold mb-5">
+          Our <span class="text-orange">Gallery</span>
+        </h2>
+        <div
+          id="carouselExampleControls"
+          class="carousel carousel-dark slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="5000">
+              <img
+                src="img/bike-1.png"
+                class="d-block mx-auto"
+                width="280"
+                height="220"
+                alt="bike"
+              />
+            </div>
+            <div class="carousel-item" data-bs-interval="5000">
+              <img
+                src="img/bike-4.jpg"
+                class="d-block mx-auto"
+                width="280"
+                height="220"
+                alt="bike"
+              />
+            </div>
+            <div class="carousel-item" data-bs-interval="5000">
+              <img
+                src="img/bike-3.png"
+                class="d-block mx-auto"
+                width="280"
+                height="220"
+                alt="bike"
+              />
+            </div>
+            <div class="carousel-item" data-bs-interval="5000">
+              <img
+                src="img/bike-2.png"
+                class="d-block mx-auto"
+                width="280"
+                height="220"
+                alt="bike"
+              />
+            </div>
+            <div class="carousel-item" data-bs-interval="5000">
+              <img
+                src="img/feature-bike.jpg"
+                class="d-block mx-auto"
+                width="280"
+                height="220"
+                alt="bike"
+              />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+      <!-- Subscribe -->
+      <section class="container-lg mb-5 mt-3">
+        <div
+          class="
+            px-3
+            py-5
+            rounded-3
+            shadow-lg
+            d-flex
+            flex-column
+            align-items-center
+            justify-content-center
+          "
+        >
+          <h2 class="display-6 fw-bold mb-4">
+            Stay <span class="text-orange">Updated</span>
+          </h2>
+          <p class="lead">Subscribe to get the latest news and offers!</p>
+          <div class="mb-3 d-flex align-items-center justify-content-center">
+            <input
+              type="email"
+              class="form-control w-75 me-1"
+              id="exampleFormControlInput1"
+              placeholder="Your email"
+            />
+            <button class="btn bg-btn text-white">Sumbit</button>
+          </div>
+        </div>
+      </section>
     </main>
     <!-- Footer -->
-    <footer class="text-center py-5 bg-dark">
-      <p class="text-white mb-0">Copyright&copy; 2021 | Honda</p>
+    <footer class="bg-dark">
+      <div class="container-lg py-5 px-2">
+        <div
+          class="d-flex flex-column flex-md-row justify-content-between mb-5"
+        >
+          <div class="d-flex mb-3">
+            <a class="text-grey text-decoration-none me-2" href="#">About</a>
+            <a class="text-grey text-decoration-none me-2" href="#">Features</a>
+            <a class="text-grey text-decoration-none me-2" href="#">Pricing</a>
+            <a class="text-grey text-decoration-none me-2" href="#">Careers</a>
+            <a class="text-grey text-decoration-none" href="#">Help</a>
+          </div>
+          <a class="text-grey text-decoration-none" href="#"> Download App </a>
+        </div>
+        <small class="text-grey mb-0">Copyright&copy; 2021 | Honda</small>
+      </div>
     </footer>
     <!-- Bootstrap js -->
     <script
